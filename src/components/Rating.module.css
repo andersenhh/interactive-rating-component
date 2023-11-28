@@ -1,0 +1,97 @@
+.panel {
+    background: hsl(215.29deg 23.29% 14.31%);
+    padding:38px;
+    border-radius: 2rem;
+    width: 350px;
+    height: 350px;
+    text-align: left;
+
+}
+
+.icon {
+    background: hsl(210deg 21.28% 18.43%);
+    border-radius: 100%;
+    padding: .8rem;
+}
+
+.title {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.desc {
+    font-size: 15px;
+    color: hsl(217.5deg 6.3% 50.2%);
+    font-weight: 700;
+}
+
+.buttonRatings {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 25px;
+}
+
+.buttonRating {
+   background-color: hsl(210deg 19.15% 18.43%);
+   border-radius: 100%;
+   width: 50px;
+   height: 50px;
+   color: hsl(217.5deg 6.3% 50.2%);
+border: none;
+outline: 0 !important
+ }
+
+.buttonRating:hover {
+    background-color: hsl(214.29deg 11.97% 54.12%);
+ }
+.buttonRating:focus {
+    background-color:hsl(25.64deg 94.98% 53.14%);
+    color: white;
+}
+
+
+.submit {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 50px;
+  margin-top: 30px;
+  color: white;
+  background-color: hsl(25.64deg 94.98% 53.14%) ;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border: none;
+outline: 0 !important;
+font-weight: 400;
+}
+
+.submit:hover {
+    background-color: hsl(214.29deg 11.97% 54.12%);
+ }
+.submit:focus {
+    background-color:white;
+    color: hsl(25, 97%, 53%);
+}
+
+.panel_thankyou{
+    background: hsl(215.29deg 23.29% 14.31%);
+    padding:38px;
+    border-radius: 2rem;
+    width: 350px;
+    height: 350px;
+}
+
+.panel_thankyou img {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.selected {
+    color: hsl(24.88deg 58.29% 41.37%);
+    font-weight: 700;
+    width: 60%;
+    padding: .3rem;
+    margin-left: 65px;
+    border-radius: 50px;
+    background-color: hsl(210deg 21.28% 18.43%);
+}
